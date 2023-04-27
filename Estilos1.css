@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-radius: 0.4em ;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    display:block;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 720px){
+  .main{
+    grid-template-columns: min-content 1fr;
+  }
+}
+
+@media screen and (min-width: 720px){
+    .columna-izquierda{
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+main{
+    padding: 2em;
+}
+header{
+    padding: 2em;
+    background-color: aqua;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.columna-izquierda {
+  border: 5px; color: white;
+  width: 200px;
+}
+.telefono {
+  float: left;
+  width: 200px;
+  text-align: center;
+  display: flex;
+  clear: both;
+  margin-left: -4px;
+  margin-top: 30px;
+}
+.email{
+  clear: both;
+  float: left;
+  width: 230px;
+  text-align: right;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.fecha-de-nacimiento{
+  clear: both;
+  float: left;
+  width: 200px;
+  text-align: center;
+  display: flex;
+  margin-left: -4px;
+  margin-top: 30px;
+}
+.dni{
+  clear: both;
+  float: left;
+  width: 200px;
+  text-align: center;
+  display: flex;
+  margin-left: 41px;
+  margin-top: 30px;
+}
+.direccion{
+  clear: both;
+  float: left;
+  width: 25px;
+  margin-top: 30px;
+}
+.cuadrado{
+  background-color: black;
+  width: 28%;
+  height: 150%;
+  position: absolute;
+  z-index: -1;
+}
+.informacion-cuadrado{
+  background-color: none;
+  width: 70%;
+  height: 120%;
+  float: right;
+  position:absolute
+  z-index: -1;
+}
+.cuadrado-amarillo{
+  background-color: rgb(255, 230, 0);
+  width: 70%;
+  height: 70%;
+  float: right;
+  position:absolute
+  z-index: -1;
+}
+.primer-titulo{
+  font-size: 5em;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+.segundo-titulo{
+  font-size: 2em;
+  margin-left: 10px;
+}
+.sobre mi{
+  margin-top: 50px;
+}
+.introduccion {
+  display: flex;
+  margin-left: 15px;
+  margin-top: 20px;
+  
+;
+}
+.icono-persona{
+  margin-left: 15px
+}
+.descripcion {
+  color: black;
+}
+.Experiencia-laboral{
+  margin-top: 30px;
+}
+.icono-experiencia{
+  margin-left: 15px
+}
+.titulo-laboral {
+  display: flex;
+}
+.Titulo {
+  display: flex;
+  margin-left: 10px;
+}
+.icono-conocimientos{
+  margin-left: 15px
+}
+.Detalle{
+  margin-left: 20px;
+}
+.foto-nahuel{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  border: 10px solid rgb(48, 47, 47);
+  display: block;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+.datos-de-perfil{
+  margin-top: 20px;
+}
